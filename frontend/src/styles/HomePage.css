@@ -1,0 +1,57 @@
+.resume-header img {
+  border: 2px solid #0d6efd;
+  padding: 2px;
+}
+
+.resume-header h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.resume-header p {
+  font-size: 13px;
+  color: #555;
+}
+
+.resume-header a {
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.resume-header a:hover {
+  text-decoration: underline;
+}
+.resume-section {
+  margin-bottom: 20px;
+  page-break-inside: avoid; /* Avoid splitting sections across pages */
+}
+
+.resume-section h4 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+.resume-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.resume-card h6 {
+  font-weight: bold;
+}
+
+.resume-badge {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+a.btn-sm {
+  font-size: 12px;
+  padding: 2px 6px;
+}

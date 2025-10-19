@@ -1,0 +1,109 @@
+/* Signup.css */
+
+.signup-page {
+  background: linear-gradient(135deg, #f0f4ff, #dfe9ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.signup-header {
+  margin-bottom: 25px;
+}
+
+.signup-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.signup-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2b2f77;
+}
+
+.signup-subtitle {
+  color: #555;
+  font-size: 14px;
+}
+
+.signup-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.signup-form .form-control:focus {
+  border-color: #4c63e7;
+  box-shadow: 0 0 0 0.2rem rgba(76, 99, 231, 0.25);
+}
+
+.signup-btn {
+  background-color: #4c63e7;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #3949b3;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+  color: #888;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.login-link {
+  color: #4c63e7;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.login-link:hover {
+  color: #2b2f77;
+}
